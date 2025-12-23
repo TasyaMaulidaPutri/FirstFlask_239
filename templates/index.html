@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Nama</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Input Nama</h2>
+
+        <form method="POST" action="/index">
+            <input type="text" name="username" placeholder="Masukkan nama" required>
+            <button type="submit">Kirim</button>
+        </form>
+    </div>
+
+</body>
+</html>
